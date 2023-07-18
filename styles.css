@@ -1,7 +1,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-image: url('cat.jpeg');
+  background-color: gray;
   overflow: hidden;
   font-family: sans-serif;
 }
