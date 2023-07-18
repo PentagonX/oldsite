@@ -1,4 +1,9 @@
 
+#githublink {
+    color: #029ee0;
+    text-decoration: none;
+}
+
 .content {
     font-family:sans-serif;
     background-color: #FFC5D8;
@@ -61,6 +66,20 @@ body, html {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("cat.jpeg");
+
+  /* Set a specific height */
+  height: 50%;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image2 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("bns.png");
 
   /* Set a specific height */
   height: 50%;
