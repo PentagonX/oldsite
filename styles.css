@@ -1,19 +1,31 @@
 
 .content {
     font-family:sans-serif;
+    background-color: #FFC5D8;
+    color: white;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #fcffb3;
+  background-color: white;
   overflow: hidden;
   font-family: sans-serif;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+.topnav #title {
   float: left;
-  color: rodgerBlue;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .buttons {
+  float: right;
+  color: #B3B3B3;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,15 +34,50 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #edb85c;
-  color: rodgerBlue;
+.topnav .buttons:hover {
+  background-color: #c9c9c9;
+  color: white;
   font-family: sans-serif;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #db3d09;
+.topnav .active {
+  background-color: lightBlue;
   color: white;
   font-family: sans-serif;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("cat.jpeg");
+
+  /* Set a specific height */
+  height: 50%;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
