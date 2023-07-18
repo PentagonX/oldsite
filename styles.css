@@ -1,4 +1,8 @@
 
+.content {
+    font-family: sans-serif;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-image: url('cat.jpeg');
