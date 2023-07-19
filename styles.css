@@ -124,3 +124,28 @@ body, html {
     font-size: 10px;
     float: bottom;
 }
+
+#countbutton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #784BFA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#countbutton:hover {background-color: #5434AF}
+
+#countbutton:active {
+  background-color: #5434AF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#hhcyg {
+    font-size: 40px;
+}
