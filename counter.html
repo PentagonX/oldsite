@@ -26,7 +26,28 @@
 <div class="">
     <h1 id="hhcyg">How High Can You Go?</h1>
     <h1 id="h1">0</h1>
-    <button id="countbutton">Count Up</button>
+    <button class="countbutton" id="countbutton">Count Up</button>
 </div>
+
+<h1>Bored from clicking the other button? Click the one below me!</h1>
+
+<button id="tooltip" class="countbutton" onclick="typeWriter()">Click Here!<span class="tooltiptext">Scroll Down!</span></button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = "I wonder what that button does. You click it and then . . . wait, how am I being typed, It's not like your typing me, huh? Are you typing me? If you're not typing me then who is. Did you press the button? Maybe the button is typing me. Let me check the code.  . . . . . . . . Yes! The code says the button should type me. Pretty cool, huh?";
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
 </body>
 </html>
