@@ -104,6 +104,20 @@ body, html {
   position: relative;
 }
 
+.storiesheroimg {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("bookimage.jpeg");
+
+  /* Set a specific height */
+  height: 50%;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
@@ -118,19 +132,25 @@ body, html {
     background-color: #79E4FA;
 }
 
+#p7192 {
+    background-color: #7BC476;
+}
+
+
 .post {
+    vertical-align:top;
     display: inline-block;
     height: 200px;
     width: 500px;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
     flex-flow: column;
 }
 
 
 .pcontent {
-    padding: 20px;
-    margin: 0px;
+    padding: 10px;
+    margin: 20px;
 }
 
 .date {
