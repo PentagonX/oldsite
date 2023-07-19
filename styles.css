@@ -1,7 +1,6 @@
 
-#githublink {
+.link {
     color: #029ee0;
-    text-decoration: none;
 }
 
 .content {
@@ -65,7 +64,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("cat.jpeg");
+  background-image: url("coolcatreal.jpeg");
 
   /* Set a specific height */
   height: 50%;
@@ -99,4 +98,29 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+#p719 {
+    background-color: #79E4FA;
+}
+
+.post {
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    flex-flow: column;
+}
+
+
+.pcontent {
+    padding: 20px;
+    margin: 0px;
+}
+
+.date {
+    margin: 10px;
+    font-size: 10px;
+    float: bottom;
 }
