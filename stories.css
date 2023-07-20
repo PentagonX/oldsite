@@ -1,0 +1,64 @@
+#page1 {
+    display: none;
+    margin-left: 100px;
+}
+
+#t {
+    margin-left: 100px;
+}
+
+#page2 {
+    display: none;
+    margin-left: 100px;
+}
+
+#page3 {
+    display: none;
+    margin-left: 100px;
+}
+
+#mySidenav {
+    margin: 30px;
+}
+
+#mySidenav button {
+  position: absolute;
+  left: -180px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav button:hover {
+  left: 0;
+}
+
+#story1 {
+  top: 500px;
+  background-color: #04AA6D;
+}
+
+#story2 {
+  top: 560px;
+  background-color: #2196F3;
+}
+
+#story3 {
+  top: 620px;
+  background-color: #f44336;
+}
+
+#te719 {
+  font-family: 'Sofia';
+  font-size: 50px;
+}
+
+#ste719 {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
