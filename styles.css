@@ -128,17 +128,9 @@ body, html {
   color: white;
 }
 
-#p719 {
-    background-color: #79E4FA;
-}
-
-#p7192 {
-    background-color: #7BC476;
-}
-
 
 .post {
-    vertical-align:top;
+    vertical-align: top;
     display: inline-block;
     height: 200px;
     width: 500px;
